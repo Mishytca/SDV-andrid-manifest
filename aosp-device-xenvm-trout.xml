@@ -1,0 +1,17 @@
+<manifest>
+    <remote name="github" fetch="https://github.com/"/>
+    <remote name="jc" fetch="https://jc.gitlab.renesasworkbench.com/rcar-android/eap_android_17"/>
+    <remote name="prop" fetch="https://partnergitlab.renesas.solutions/x5h-fusion-poc/"/>
+
+    <project name="device/google/cuttlefish" revision="66b649d90de407ddea7c6210a523ce00f124d609" remote="jc"/> <!-- main-xt -->
+    <project name="device/google/sdv" revision="08e6380af9820d96da069124911df303d8e930a4" remote="jc"/> <!-- main-xt -->
+    <project name="device/google/sdv_display_safety" revision="e5420fa6498dbe5922ee5eefa68774cf788258b9" remote="jc"/> <!-- main-xt -->
+    <project name="platform/packages/apps/Car/DriverUIPrebuilt" path="packages/apps/Car/DriverUIPrebuilt" revision="0dc3ab723850b35124935cdb4af64e28cd8e3624" remote="jc"/> <!-- main-xt -->
+    <project name="FakeMapPrebuilt" path="packages/apps/Car/FakeMapPrebuilt" revision="89981f92a9291f9fe41d110736e1948f0ed7b75c" remote="prop"/> <!-- main-xt -->
+    <project name="platform/packages/services/Car" path="packages/services/Car" revision="19ae23d784097dcab70367f604417ed5a8146571" remote="jc"/> <!-- main-xt -->
+    <project name="platform/packages/services/display_safety" path="packages/services/display_safety" revision="ea288500140199337e43bbb5874af17e07f81795" remote="jc"/> <!-- main-xt -->
+
+    <project name="xen-troops/lisot" path="vendor/epam/lisot" revision="48656eb1a8fc8c4a28fd37a1618183a0de5d4d3d" remote="github"/>
+    <project name="xen-troops/android_external_drm_hwcomposer" path="vendor/epam/hwc" revision="01cc24613ec4132ac3fe66681f60ae6a6fbf576d" remote="github"/> <!-- android-16-xenvm-trout-ih-main -->
+
+</manifest>

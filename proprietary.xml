@@ -1,0 +1,6 @@
+<manifest>
+    <remote name="prop" fetch="https://partnergitlab.renesas.solutions/x5h-fusion-poc/"/>
+
+    <project path="vendor/prebuilts/renesas" name="gen5-prebuilts" remote="prop" revision="c56983be06148cf9970a402cf9a2840fbfaeb6c7"/> <!-- ces2026 -->
+    <project path="vendor/prebuilts/imagination" name="ddk-um-bin" remote="prop" revision="9356cfee7fc63aed76e9c8676099cf7fd19b948c"/> <!-- android-17-ivi -->
+</manifest>
